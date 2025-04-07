@@ -133,14 +133,13 @@ MONGODB_URI=_YourURI
 npm run dev
 ```
 
-### Contributing
-We welcome contributions from the community! Please check our [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines.
-
 ## Our Team
 
 ### Core Team
 - **Raksha** – Frontend, AI chatbot, Web3 integration, Smart contracts
 - **Aditya** – Frontend, Smart contracts, Backend - AI Responses & Compiler Config , OCID integration
+
+  ![Team Story](https://github.com/EduchainLabs/Showcase/blob/main/AboutSection.png)
 
 
 ## Links
