@@ -12,7 +12,6 @@
 - [Tech Stack](#tech-stack)
 - [Development](#development)
 - [Our Team](#our-team)
-- [Roadmap](#roadmap)
 - [Links](#links)
 - [Fundraising Status](#fundraising-status)
 - [License](#license)
@@ -55,6 +54,7 @@ A 24/7 AI-powered tutor that helps users debug code, explain blockchain concepts
 ### 🔹 OpenCampus ID (OCID) Integration
 Secure, decentralized authentication using OCID. Users sign in with their Web3 identity and access the platform's full suite of features with a single click.
 
+![OCID Authentication](https://github.com/EduchainLabs/Showcase/blob/main/OCID%20Authentication.png)
 ![OCID Integration](https://github.com/EduchainLabs/Showcase/blob/main/TutorialSection.png)
 
 ### 🔹 User Profile & Dashboard
@@ -65,7 +65,6 @@ A personalized dashboard that tracks courses completed, submission made, accepte
 ### 🔹 Gas Fee Transparency
 Before any blockchain interaction, the platform provides an estimate of the required gas fee. This builds awareness of real-world blockchain costs and prevents failed transactions.
 
-![Gas Fee Transparency](https://placeholder.com/gas-fee.png)
 
 ### 🔹 Beginner-Friendly Setup Tutorials
 Step-by-step guides (both video and text-based) for absolute beginners. Learn how to install MetaMask, add testnet networks, acquire testnet tokens, and sign up using OCID — all designed to make onboarding into Web3 as easy as possible.
@@ -80,59 +79,55 @@ Step-by-step guides (both video and text-based) for absolute beginners. Learn ho
 - OpenCampus ID (OCID) - can be created during signup
 
 ### Quick Start
-1. Visit [https://educhainlabs.xyz](https://educhainlabs.vercel.app/)
+1. Visit [https://educhainlabs.vercel.app](https://educhainlabs.vercel.app/)
 2. Connect your wallet and authenticate with OCID
-3. Complete your profile setup
-4. Explore courses or jump into the Solidity Practice Arena
-5. Start earning NFT certificates and rewards!
+3. Explore courses or jump into the Solidity Practice Arena
+4. Start earning NFT certificates, Achievements and rewards!
 
 ## Platform Components
 
 ### Learning Paths
 - **Blockchain Fundamentals** - For absolute beginners
 - **Smart Contract Development** - Intermediate Solidity programming
-- **Advanced Web3 Development** - DApp creation and advanced topics
-- **Specialized Tracks** - DeFi, NFTs, DAOs, and more
+- **Advanced Web3 Development** - Organized Smart Contract Competetions
 
 ### Practice Arena
 - Categorized Solidity challenges by difficulty
-- Real-time compilation and testing
-- Custom test case creation
-- Integrated debugging tools
+- Real-time Solidity compilation and validation
+- AI Generated Problem Statement With Requirements
 - AI-powered code suggestions
 
 ### Challenge Portal
 - Company-sponsored real-world problems
 - Bounty rewards distributed via smart contracts
 - Solution verification and feedback
-- Public leaderboard for top performers
 
 ## Tech Stack
 
 - **Frontend**: Next.js, TypeScript, Tailwind CSS
-- **Backend**: Node.js, MongoDB
+- **Backend**: Flask,
+- **Database**: MongoDB,  
 - **Blockchain**: Solidity, Hardhat, Ethers.js
-- **AI**: OpenAI API
+- **AI**: Gemini API ( Model - Gemini Flash 2.0 )
 - **Storage**: Pinata (IPFS)
 - **Auth**: OpenCampus ID (OCID)
 - **Hosting**: Vercel
-
-![Tech Stack](https://placeholder.com/tech-stack.png)
 
 ## Development
 
 ### Local Setup
 ```bash
-# Clone the repository
-git clone https://github.com/educhainlabs/platform.git
+# Clone the Frontend repository
+git clone https://github.com/EduchainLabs/Frontend.git
 
 # Install dependencies
-cd platform
+cd Frontend
 npm install
 
 # Set up environment variables
-cp .env.example .env.local
-# Edit .env.local with your API keys and configuration
+WEBSITE_URL = "http://localhost:3000/"
+NEXT_PUBLIC_API_URL = "Where Your Backend Server is Running - Responsible for Code Validation and AI Responses"
+MONGODB_URI=_YourURI
 
 # Run development server
 npm run dev
@@ -145,66 +140,45 @@ We welcome contributions from the community! Please check our [CONTRIBUTING.md](
 
 ### Core Team
 - **Raksha** – Frontend, AI chatbot, Web3 integration, Smart contracts
-- **Aditya** – Smart contracts, backend, OCID integration
+- **Aditya** – Frontend, Smart contracts, Backend - AI Responses & Compiler Config , OCID integration
 
-### Advisors
-- TBA
-
-![Team Photo](https://placeholder.com/team.png)
-
-## Roadmap
-
-### Q2 2025
-- Platform launch with core features
-- Integration with additional blockchain networks
-- Mobile-responsive design optimization
-
-### Q3 2025
-- Community contribution system
-- Expanded course library
-- Enhanced AI capabilities
-
-### Q4 2025
-- Enterprise solutions for Web3 companies
-- Advanced analytics and learning insights
-- Cross-chain certification support
-
-![Roadmap](https://placeholder.com/roadmap.png)
 
 ## Links
 
 - 🌐 Website: [https://educhainlabs.xyz](https://educhainlabs.vercel.app/)
 - 🐦 X: [@educhainlabs](https://x.com/EduchainLabs)
-- 📱 Discord: [Join our community](https://discord.gg/educhainlabs)
 - 📚 Documentation: [docs.educhainlabs.xyz](https://docs.educhainlabs.xyz)
-- 🧑‍💻 GitHub: [github.com/educhainlabs](https://github.com/educhainlabs)
+- 🧑‍💻 GitHub: [github.com/educhainlabs](https://github.com/EduchainLabs)
 
 ## Fundraising Status
 
 Not raised yet; actively looking for incubation and early-stage support. 
 
-Interested in supporting our vision? Contact us at [investors@educhainlabs.xyz](mailto:investors@educhainlabs.xyz)
+Interested in supporting our vision? Contact us at [investors@educhainlabs.xyz](mailto:educhainlabs@gmail.com)
 
 ## License
 
-MIT License
+License
+Educhain Labs Commercial License
+Copyright (c) 2025 Educhain Labs
+All rights reserved.
+This software and associated documentation files (the "Software") may only be used or copied in accordance with the terms of the commercial license agreement provided with the Software or, alternatively, in accordance with the terms contained in a written agreement between you and EduChain Labs.
+Commercial Use Requirements:
 
-Copyright (c) 2025 EduChain Labs
+A valid commercial license must be purchased for any business or individual using this software for commercial purposes.
+Licensing fees are based on usage tiers as defined in our commercial licensing agreement.
+Subscription renewal is required to continue using the software after the initial license period.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Prohibited Activities:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Distributing, sharing, or reselling the Software without explicit written permission.
+Modifying, reverse engineering, or creating derivative works based on the Software.
+Removing or altering any proprietary notices or labels on the Software.
+Using the Software after license expiration or termination.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+No Warranty:
+THE SOFTWARE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. IN NO EVENT SHALL EDUCHAIN LABS BE LIABLE FOR ANY DAMAGES ARISING FROM THE USE OF THIS SOFTWARE.
+For licensing information, please contact: educhainlabs@gmail.com
+Unauthorized use of this software may result in legal action.
+
+
