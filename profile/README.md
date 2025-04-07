@@ -1,4 +1,4 @@
-[# EduChain Labs
+# EduChain Labs
 
 EduChain Labs is a Web3 learning platform built for the EduChain ecosystem. It combines blockchain education with hands-on Solidity practice, AI-powered support, and real-world challenge rewards.
 
@@ -60,4 +60,3 @@ AI, NFT, Infra
 ## 📜 License
 
 MIT License
-](https://github.com/EduchainLabs/.github/new/main?org_profile_readme=1)
