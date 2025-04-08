@@ -14,6 +14,7 @@
 - [Our Team](#our-team)
 - [Links](#links)
 - [Fundraising Status](#fundraising-status)
+- [Smart Contracts](#smart-contracts)
 - [License](#license)
 
 ## Overview
@@ -136,7 +137,7 @@ npm run dev
 ## Our Team
 
 ### Core Team
-- **Raksha** – Frontend, AI chatbot, Web3 integration, Smart contracts
+- **Raksha** – Frontend, AI chatbot, Web3 integration, Smart contracts, Database Management, Code Editor Config
 - **Aditya** – Frontend, Smart contracts, Backend - AI Responses & Compiler Config , OCID integration
 
   ![Team Story](https://github.com/EduchainLabs/Showcase/blob/main/AboutSection.png)
@@ -154,6 +155,12 @@ npm run dev
 Not raised yet; actively looking for incubation and early-stage support. 
 
 Interested in supporting our vision? Contact us at [investors@educhainlabs.xyz](mailto:educhainlabs@gmail.com)
+
+## Smart Contracts
+
+- 🧾 **Certificate NFT Contract**: [View on Etherscan](https://edu-chain-testnet.blockscout.com/address/0xE64fA322753b840Ab87895f069F4f85C5cD28A13)
+- 💰 **Challenge Bounty Contract**: [View on Etherscan](https://edu-chain-testnet.blockscout.com/address/0x58e491bEB8B389e9eea9d832639819D5A557d121)
+
 
 ## License
 
