@@ -147,7 +147,6 @@ npm run dev
 
 - 🌐 Website: [https://educhainlabs.xyz](https://educhainlabs.vercel.app/)
 - 🐦 X: [@educhainlabs](https://x.com/EduchainLabs)
-- 📚 Documentation: [docs.educhainlabs.xyz](https://docs.educhainlabs.xyz)
 - 🧑‍💻 GitHub: [github.com/educhainlabs](https://github.com/EduchainLabs)
 
 ## Fundraising Status
