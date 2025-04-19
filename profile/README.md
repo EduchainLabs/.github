@@ -1,4 +1,4 @@
-# EduChain Labs
+# Educhain Labs
 
 <img src="https://github.com/EduchainLabs/Showcase/blob/main/EduchainLogo.png" width=200 />
 
