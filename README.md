@@ -1,8 +1,27 @@
-# EduChain Labs
+# Educhain Labs
 
-EduChain Labs is a Web3 learning platform built for the EduChain ecosystem. It combines blockchain education with hands-on Solidity practice, AI-powered support, and real-world challenge rewards.
+<img src="https://github.com/EduchainLabs/Showcase/blob/main/EduchainLogo.png" width=200 />
 
-## 🔍 Overview
+> Web3 Learning Platform with Solidity Practice Arena, NFT Certifications, and AI-Powered Support
+
+## Table of Contents
+- [Overview](#overview)
+- [Key Features](#key-features)
+- [Getting Started](#getting-started)
+- [Platform Components](#platform-components)
+- [Tech Stack](#tech-stack)
+- [Development](#development)
+- [Our Team](#our-team)
+- [Links](#links)
+- [Fundraising Status](#fundraising-status)
+- [Smart Contracts](#smart-contracts)
+- [License](#license)
+
+## Overview
+
+EduChain Labs is a comprehensive Web3 learning platform built for the EduChain ecosystem. It combines interactive blockchain education with hands-on Solidity practice, AI-powered support, and real-world challenge rewards. Our platform bridges the gap between theoretical blockchain knowledge and practical development skills.
+
+![Platform Overview](https://github.com/EduchainLabs/Showcase/blob/main/EarlyAccess.png)
 
 EduChain Labs empowers learners to:
 - Practice Solidity through a LeetCode-style code arena with real-time validation
@@ -11,52 +30,160 @@ EduChain Labs empowers learners to:
 - Interact with an AI chatbot for 24/7 learning assistance
 - Log in securely using OpenCampus ID (OCID)
 
-## 🚀 Features
+## Key Features
 
-- **Solidity Practice Arena** – Real-time compiler, AI feedback, and custom problems  
-- **NFT-Certified Courses** – Auto-mint certificates on completion via Pinata/IPFS  
-- **Company Challenge System** – Smart contract rewards for solving posted challenges  
-- **AI Chatbot** – Personalized, interactive help for course and code support  
-- **OCID Integration** – Web3 authentication and dashboard access  
-- **Admin Dashboard** – Upload courses, manage users, and verify challenges  
-- **Gas Fee Transparency** – Estimated gas shown before blockchain actions
+### 🔹 Solidity Practice Arena
+A LeetCode-style coding platform where users can get a experience suitable AI Generated Problem Statement for Smart Contract Development They can write, compile, and test Solidity smart contracts. Includes AI-driven feedback and real-time code validation to help reinforce learning.
 
-## 🧱 Tech Stack
+![Solidity Arena](https://github.com/EduchainLabs/Showcase/blob/main/SolidityCodeArena.png)
 
-- **Frontend**: Next.js, TypeScript, Tailwind CSS  
-- **Backend**: Node.js, MongoDB  
-- **Blockchain**: Solidity, Hardhat, Ethers.js  
-- **AI**: OpenAI API  
-- **Storage**: Pinata (IPFS)  
-- **Auth**: OpenCampus ID (OCID)  
-- **Hosting**: Vercel  
+### 🔹 NFT-Certified Courses
+Earn verifiable NFT certificates upon course completion. Each course include theoritical knowledge & some of the courses also include Hands On Challenges where users can practice what they learn at the instant. Each certificate is minted via IPFS using Pinata and tied to the user's wallet—making achievements permanent and tamper-proof.
 
-## 🔗 Links
+![NFT Certificates](https://github.com/EduchainLabs/Showcase/blob/main/Courses.png)
 
-- 🌐 Website: [https://educhainlabs.xyz](https://educhainlabs.vercel.app/)   
-- 🐦 X: [@educhainlabs](https://x.com/EduchainLabs)  
+### 🔹 Company Challenge System
+Tackle real-world Web3 problems posted by companies. Successful submissions trigger smart contracts that automatically distribute bounty rewards to the solver's wallet. Can be used as a way to promote their Organization and also get solution to problems in Smart Contract Dev.
 
-## 👥 Team
+![Challenge System](https://github.com/EduchainLabs/Showcase/blob/main/CreateBounty.png)
 
-- **Raksha** – Frontend, AI chatbot, Web3 integration, Smart contracts  
-- **Aditya** – Smart contracts, backend, OCID integration
+### 🔹 AI Chatbot Assistance
+A 24/7 AI-powered tutor that helps users debug code, explain blockchain concepts, and suggest improvements—creating a personalized and supportive learning environment.
 
-## 📈 Progress During Hackathon
+![AI Chatbot](https://github.com/EduchainLabs/Showcase/blob/main/CourseChatbot.png)
 
-- Built Solidity practice arena with AI-powered feedback  
-- Launched NFT-certified courses using IPFS via Pinata  
-- Created a challenge system with smart contract-based bounty rewards  
-- Integrated OCID for secure Web3 authentication  
-- Delivered a complete, responsive MVP
+### 🔹 OpenCampus ID (OCID) Integration
+Secure, decentralized authentication using OCID. Users sign in with their Web3 identity and access the platform's full suite of features with a single click.
 
-## 📌 Fundraising Status
+![OCID Authentication](https://github.com/EduchainLabs/Showcase/blob/main/OCID%20Authentication.png)
+![OCID Integration](https://github.com/EduchainLabs/Showcase/blob/main/TutorialSection.png)
 
-Not raised yet; actively looking for incubation and early-stage support.
+### 🔹 User Profile & Dashboard
+A personalized dashboard that tracks courses completed, submission made, accepted submissions , ai scores each of their submissions , achievements and more — helping learners stay motivated and on track.
 
-## 🏷️ Sector
+![User Dashboard](https://github.com/EduchainLabs/Showcase/blob/main/ProfileSection.png)
 
-AI, NFT, Infra
+### 🔹 Gas Fee Transparency
+Before any blockchain interaction, the platform provides an estimate of the required gas fee. This builds awareness of real-world blockchain costs and prevents failed transactions.
 
-## 📜 License
 
-MIT License
+### 🔹 Beginner-Friendly Setup Tutorials
+Step-by-step guides (both video and text-based) for absolute beginners. Learn how to install MetaMask, add testnet networks, acquire testnet tokens, and sign up using OCID — all designed to make onboarding into Web3 as easy as possible.
+
+![Setup Tutorials](https://github.com/EduchainLabs/Showcase/blob/main/TutorialSectionVideo.png)
+
+## Getting Started
+
+### Prerequisites
+- MetaMask or compatible Web3 wallet
+- Basic understanding of blockchain concepts (or willingness to learn!)
+- OpenCampus ID (OCID) - can be created during signup
+
+### Quick Start
+1. Visit [https://educhainlabs.vercel.app](https://educhainlabs.vercel.app/)
+2. Connect your wallet and authenticate with OCID
+3. Explore courses or jump into the Solidity Practice Arena
+4. Start earning NFT certificates, Achievements and rewards!
+
+## Platform Components
+
+### Learning Paths
+- **Blockchain Fundamentals** - For absolute beginners
+- **Smart Contract Development** - Intermediate Solidity programming
+- **Advanced Web3 Development** - Organized Smart Contract Competetions
+
+### Practice Arena
+- Categorized Solidity challenges by difficulty
+- Real-time Solidity compilation and validation
+- AI Generated Problem Statement With Requirements
+- AI-powered code suggestions
+
+### Challenge Portal
+- Company-sponsored real-world problems
+- Bounty rewards distributed via smart contracts
+- Solution verification and feedback
+
+## Tech Stack
+
+- **Frontend**: Next.js, TypeScript, Tailwind CSS
+- **Backend**: Flask,
+- **Database**: MongoDB,  
+- **Blockchain**: Solidity, Hardhat, Ethers.js
+- **AI**: Gemini API ( Model - Gemini Flash 2.0 )
+- **Storage**: Pinata (IPFS)
+- **Auth**: OpenCampus ID (OCID)
+- **Hosting**: Vercel
+
+## Development
+
+### Local Setup
+```bash
+# Clone the Frontend repository
+git clone https://github.com/EduchainLabs/Frontend.git
+
+# Install dependencies
+cd Frontend
+npm install
+
+# Set up environment variables
+WEBSITE_URL = "http://localhost:3000/"
+NEXT_PUBLIC_API_URL = "Where Your Backend Server is Running - Responsible for Code Validation and AI Responses"
+MONGODB_URI=_YourURI
+
+# Run development server
+npm run dev
+```
+
+## Our Team
+
+### Core Team
+- **Raksha** – Frontend, AI chatbot, Web3 integration, Smart contracts, Database Management, Code Editor Config
+- **Aditya** – Frontend, Smart contracts, Backend - AI Responses & Compiler Config , OCID integration
+
+  ![Team Story](https://github.com/EduchainLabs/Showcase/blob/main/AboutSection.png)
+
+
+## Links
+
+- 🌐 Website: [https://educhainlabs.xyz](https://educhainlabs.vercel.app/)
+- 🐦 X: [@educhainlabs](https://x.com/EduchainLabs)
+- 🧑‍💻 GitHub: [github.com/educhainlabs](https://github.com/EduchainLabs)
+
+## Fundraising Status
+
+Not raised yet; actively looking for incubation and early-stage support. 
+
+Interested in supporting our vision? Contact us at [investors@educhainlabs.xyz](mailto:educhainlabs@gmail.com)
+
+## Smart Contracts
+
+- 🧾 **Certificate NFT Contract**: [View on Etherscan](https://edu-chain-testnet.blockscout.com/address/0xE64fA322753b840Ab87895f069F4f85C5cD28A13)
+- 💰 **Challenge Bounty Contract**: [View on Etherscan](https://edu-chain-testnet.blockscout.com/address/0x58e491bEB8B389e9eea9d832639819D5A557d121)
+
+
+## License
+
+License
+Educhain Labs Commercial License
+Copyright (c) 2025 Educhain Labs
+All rights reserved.
+This software and associated documentation files (the "Software") may only be used or copied in accordance with the terms of the commercial license agreement provided with the Software or, alternatively, in accordance with the terms contained in a written agreement between you and EduChain Labs.
+Commercial Use Requirements:
+
+A valid commercial license must be purchased for any business or individual using this software for commercial purposes.
+Licensing fees are based on usage tiers as defined in our commercial licensing agreement.
+Subscription renewal is required to continue using the software after the initial license period.
+
+Prohibited Activities:
+
+Distributing, sharing, or reselling the Software without explicit written permission.
+Modifying, reverse engineering, or creating derivative works based on the Software.
+Removing or altering any proprietary notices or labels on the Software.
+Using the Software after license expiration or termination.
+
+No Warranty:
+THE SOFTWARE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. IN NO EVENT SHALL EDUCHAIN LABS BE LIABLE FOR ANY DAMAGES ARISING FROM THE USE OF THIS SOFTWARE.
+For licensing information, please contact: educhainlabs@gmail.com
+Unauthorized use of this software may result in legal action.
+
+
